@@ -28,3 +28,20 @@ print(b[2:7])
 
 # slice form starting
 print(a[:3])   
+
+#slicing string from starting
+print(a[3:])
+
+#tells weather string end with or not 
+c=a.endswith("chutiya")
+print(c)
+
+
+#tells occurence of c in string a 
+print(a.count("s"))
+
+#use to captal the string
+print(a.capitalize())
+
+#use to replace string
+print(b.replace("Bhagwati","Bhutiya"))
